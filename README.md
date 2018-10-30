@@ -41,7 +41,7 @@ cf create-service aws-s3 standard gt-secure-bucket-1
 
 ## Build the project
 
-After you check out the project, run 
+After you configure the app, run this command:
 ```
 mvn clean package
 ```

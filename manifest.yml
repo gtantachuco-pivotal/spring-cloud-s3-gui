@@ -1,0 +1,8 @@
+---
+instances: 1
+memory: 1024M
+applications:
+  - name: spring-cloud-s3-gui
+    path: target/spring-cloud-s3-gui-0.1.0.jar
+    services:
+      - gt-secure-bucket-1
